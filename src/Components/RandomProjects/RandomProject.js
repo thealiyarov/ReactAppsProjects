@@ -27,7 +27,7 @@ function RandomProject() {
               <input value={maxVal} onChange={e=>setMaxVal(Number(e.target.value))} type="number" className="px-[5px] bg-[#FAEED1] h-[30px] w-[100%]" />
             </div>
           </div>
-          <button onClick={getRandom} className="bg-[#FAEED1] py-[13px] font-bold text-[20px]">Get Random Number.</button>
+          <button onClick={getRandom} className="bg-[#FAEED1] py-[13px] font-bold text-[20px]">Get Random Number.....</button>
 
         </div>
       </div>
