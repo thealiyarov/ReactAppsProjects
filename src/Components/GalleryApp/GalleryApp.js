@@ -17,7 +17,7 @@ function GalleryApp() {
 
 
   return (
-    <div className="Container flex flex-col items-center mt-[20px] ">
+    <div className="Container flex flex-col w-[100%] bg-[#e9e6e5] items-center justify-center  ">
       
       <div className="TopImg mb-[40px] w-[500px] h-[400px]  ">
         <img className="w-[600px] h-[400px]" src={image} alt="img" />
