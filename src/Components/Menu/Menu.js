@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { AiOutlineNumber } from "react-icons/ai";
-import { GrGallery } from "react-icons/gr";
+import { RiGalleryLine } from "react-icons/ri";
 import { IoSearchOutline } from "react-icons/io5";
 import { BiHomeAlt2 } from "react-icons/bi";
+import { PiNotebook } from "react-icons/pi";
+
 import "./Menu.css"
 function Menu() {
     const [searchVal,setSearchVal]=useState("")
 
     const links=[
         {to:"/randomnumbergenerator", name:'Random Number Generator',icon:<AiOutlineNumber />},
-        {to:"/galleryapp", name:'Gallery App',icon:<GrGallery />},
+        {to:"/galleryapp", name:'Gallery App',icon:<RiGalleryLine />},
+        {to:"/todolistapp", name:'To Do List App' , icon:<PiNotebook />
+      },
     ]
 
     function searchFn(e){
@@ -18,7 +22,7 @@ function Menu() {
     }
 
   return (
-    <div className="Container relative text-white  bg-[#392467] h-[100vh] w-[21%] py-[20px] px-[30px] ">
+    <div className="Container relative text-white  bg-[#392467] h-[100vh] w-[25%] py-[20px] px-[30px] ">
       <div className="top flex w-[110%]  mx-[-15px] gap-[10px]">
       <div className="search w-[100%] flex ">
         <form  className="w-[100%]  h-[30px] bg-[#EEF5FF] flex items-center relative rounded-[8px] " action="input">
