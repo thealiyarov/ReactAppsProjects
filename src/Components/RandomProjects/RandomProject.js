@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./RandomProjectStyle.css"
 
 function RandomProject() {
     const [minVal,setMinVal]=useState();
@@ -12,7 +11,7 @@ function RandomProject() {
   
   return (
     <div className="Container w-[100%] h-[100vh] flex flex-col justify-center items-center bg-[#e9e6e5]">
-      <h1 className="text-[38px] font-bold mb-[60px] bg-[#607274] py-[10px] px-[10px] text-center rounded-[5px] w-[40%]">Random Number Generator</h1>
+      <h1 className="  mb-[60px] bg-[#607274]   text-center rounded-[5px] w-[40%]">Random Number Generator</h1>
       <div className="main w-[40%] flex flex-col justify-center items-center  h-[500px] bg-[#607274] rounded-[10px] ">
         <div className="mainDiv flex h-[450px] w-[80%] flex-col justify-evenly ">
           <div className="randomDiv bg-[#FAEED1] px-[5px] py-[5px] font-bold text-[20px]">
