@@ -36,7 +36,7 @@ function ToDoApp() {
                 onChange={(e) => setAddItem(e.target.value)}
                 value={addItem}
                 type="text"
-                placeholder="Write Here"
+                placeholder="Write to do"
               />
               <button
                 onClick={AddFn}
