@@ -24,7 +24,7 @@ function ToDoApp() {
 }
   return (
     <div className="Container flex flex-col justify-center items-center bg-[#e9e6e5] w-[100%] ">
-        <h1 className=" w-[50%] text-center mb-[30px] bg-[#5C5470]   rounded-[5px] ">To Do List App.</h1>
+        <h1 className=" w-[50%] text-center mb-[30px] bg-[#5C5470]   rounded-[5px] ">To Do List App</h1>
       <div className="Main w-[50%] flex flex-col items-center   rounded-[8px]  h-[80vh]   bg-[#5C5470] ">
        
         <div className="Inputli  w-[80%]">
