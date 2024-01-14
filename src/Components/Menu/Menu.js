@@ -31,7 +31,7 @@ function Menu() {
         </form>
       </div>
       <div className="w-[10%] flex items-center h-[30px]">
-            <NavLink to="/" ><BiHomeAlt2 className="w-[100%] h-[30px]" /></NavLink>
+            <NavLink to="/home" ><BiHomeAlt2 className="w-[100%] h-[30px]" /></NavLink>
       </div>
       </div>
       <div className="links flex flex-col mt-[30px]">
