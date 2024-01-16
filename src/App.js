@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import ToDoApp from "./Components/ToDoApp/ToDoApp.js";
 import Home from "./Components/Home/Home.js";
 import RandomQuote from "./Components/RandomQuote/RandomQuote.js";
+import Quiz from "./Components/Quiz/Quiz.js";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
          <Route path="/galleryapp" element={<GalleryApp />} />
          <Route path="/todolistapp" element={<ToDoApp />} />
          <Route path="/randomquote" element={<RandomQuote />} />
+         <Route path="/quiz" element={<Quiz />} />
 
       </Routes>
     </div>

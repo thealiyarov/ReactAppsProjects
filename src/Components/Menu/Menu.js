@@ -6,6 +6,7 @@ import { IoSearchOutline } from "react-icons/io5";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { PiNotebook } from "react-icons/pi";
 import { BsBlockquoteRight } from "react-icons/bs";
+import { MdOutlineQuiz } from "react-icons/md";
 
 import "./Menu.css"
 function Menu() {
@@ -15,7 +16,8 @@ function Menu() {
         {to:"/randomnumbergenerator", name:'Random Number Generator',icon:<AiOutlineNumber />},
         {to:"/galleryapp", name:'Gallery App',icon:<RiGalleryLine />},
         {to:"/todolistapp", name:'To Do List App' , icon:<PiNotebook />},
-        {to:"/randomquote", name:'Random Quote Generator' , icon:<BsBlockquoteRight />},
+        {to:"/randomquote", name:'Random Quote Generator',icon:<BsBlockquoteRight />},
+        {to:"/quiz", name:'Quiz',icon:<MdOutlineQuiz />},
     ]
 
     function searchFn(e){
