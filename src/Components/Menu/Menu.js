@@ -7,6 +7,7 @@ import { BiHomeAlt2 } from "react-icons/bi";
 import { PiNotebook } from "react-icons/pi";
 import { BsBlockquoteRight } from "react-icons/bs";
 import { MdOutlineQuiz } from "react-icons/md";
+import { CiCircleMore } from "react-icons/ci";
 
 import "./Menu.css"
 function Menu() {
@@ -18,6 +19,7 @@ function Menu() {
         {to:"/todolistapp", name:'To Do List App' , icon:<PiNotebook />},
         {to:"/randomquote", name:'Random Quote Generator',icon:<BsBlockquoteRight />},
         {to:"/quiz", name:'Quiz',icon:<MdOutlineQuiz />},
+        {to:"/pagination", name:'Pagination',icon:<CiCircleMore />},
     ]
 
     function searchFn(e){
@@ -25,7 +27,7 @@ function Menu() {
     }
 
   return (
-    <div className="Container relative text-white  bg-[#392467] h-[100vh] w-[25%] py-[20px] px-[30px] ">
+    <div className="Container   text-white  bg-[#392467] h-[100vh] w-[25%] py-[20px] px-[30px] ">
       <div className="top flex w-[110%]  mx-[-15px] gap-[10px]">
       <div className="search w-[100%] flex ">
         <form  className="w-[100%]  h-[30px] bg-[#EEF5FF] flex items-center relative rounded-[8px] " action="input">

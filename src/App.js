@@ -7,13 +7,14 @@ import ToDoApp from "./Components/ToDoApp/ToDoApp.js";
 import Home from "./Components/Home/Home.js";
 import RandomQuote from "./Components/RandomQuote/RandomQuote.js";
 import Quiz from "./Components/Quiz/Quiz.js";
+import Pagination from "./Components/Pagination/Pagination.js";
 
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex  w-[100%]">
       <Menu/>
-      <Routes>
+      <Routes> 
       <Route index={true} element={<Home />} />
          <Route path="/home" element={<Home />} />
          <Route path="/randomnumbergenerator" element={<RandomProject />} />
@@ -21,6 +22,7 @@ function App() {
          <Route path="/todolistapp" element={<ToDoApp />} />
          <Route path="/randomquote" element={<RandomQuote />} />
          <Route path="/quiz" element={<Quiz />} />
+         <Route path="/pagination" element={<Pagination />} />
 
       </Routes>
     </div>
