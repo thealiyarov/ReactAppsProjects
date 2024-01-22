@@ -7,7 +7,8 @@ import { BiHomeAlt2 } from "react-icons/bi";
 import { PiNotebook } from "react-icons/pi";
 import { BsBlockquoteRight } from "react-icons/bs";
 import { MdOutlineQuiz } from "react-icons/md";
-import { CiCircleMore } from "react-icons/ci";
+import { CgMoreO } from "react-icons/cg";
+import { HiOutlineColorSwatch } from "react-icons/hi";
 
 import "./Menu.css"
 function Menu() {
@@ -19,7 +20,8 @@ function Menu() {
         {to:"/todolistapp", name:'To Do List App' , icon:<PiNotebook />},
         {to:"/randomquote", name:'Random Quote Generator',icon:<BsBlockquoteRight />},
         {to:"/quiz", name:'Quiz',icon:<MdOutlineQuiz />},
-        {to:"/pagination", name:'Pagination',icon:<CiCircleMore />},
+        {to:"/pagination", name:'Pagination',icon:<CgMoreO />},
+        {to:"/colorgenerator", name:'Color Generator',icon:<HiOutlineColorSwatch />},
     ]
 
     function searchFn(e){

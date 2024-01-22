@@ -8,6 +8,7 @@ import Home from "./Components/Home/Home.js";
 import RandomQuote from "./Components/RandomQuote/RandomQuote.js";
 import Quiz from "./Components/Quiz/Quiz.js";
 import Pagination from "./Components/Pagination/Pagination.js";
+import ColorGenerator from "./Components/ColorGenerator/ColorGenerator.js";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
          <Route path="/randomquote" element={<RandomQuote />} />
          <Route path="/quiz" element={<Quiz />} />
          <Route path="/pagination" element={<Pagination />} />
+         <Route path="/colorgenerator" element={<ColorGenerator />} />
 
       </Routes>
     </div>
