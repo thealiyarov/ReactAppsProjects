@@ -9,6 +9,7 @@ import { BsBlockquoteRight } from "react-icons/bs";
 import { MdOutlineQuiz } from "react-icons/md";
 import { CgMoreO } from "react-icons/cg";
 import { HiOutlineColorSwatch } from "react-icons/hi";
+import { CgScrollV } from "react-icons/cg";
 
 import "./Menu.css"
 function Menu() {
@@ -22,6 +23,7 @@ function Menu() {
         {to:"/quiz", name:'Quiz',icon:<MdOutlineQuiz />},
         {to:"/pagination", name:'Pagination',icon:<CgMoreO />},
         {to:"/colorgenerator", name:'Color Generator',icon:<HiOutlineColorSwatch />},
+        {to:"/scrollbarindicator", name:'Scroll Bar Indicator',icon:<CgScrollV />},
     ]
 
     function searchFn(e){

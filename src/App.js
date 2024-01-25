@@ -9,6 +9,7 @@ import RandomQuote from "./Components/RandomQuote/RandomQuote.js";
 import Quiz from "./Components/Quiz/Quiz.js";
 import Pagination from "./Components/Pagination/Pagination.js";
 import ColorGenerator from "./Components/ColorGenerator/ColorGenerator.js";
+import ScrollBarIndicator from "./Components/ScrollBarIndicator/ScrollBarIndicator.js";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
          <Route path="/quiz" element={<Quiz />} />
          <Route path="/pagination" element={<Pagination />} />
          <Route path="/colorgenerator" element={<ColorGenerator />} />
+         <Route path="/scrollbarindicator" element={<ScrollBarIndicator />} />
 
       </Routes>
     </div>
