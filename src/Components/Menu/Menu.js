@@ -10,6 +10,7 @@ import { MdOutlineQuiz } from "react-icons/md";
 import { CgMoreO } from "react-icons/cg";
 import { HiOutlineColorSwatch } from "react-icons/hi";
 import { CgScrollV } from "react-icons/cg";
+import { CiShoppingBasket } from "react-icons/ci";
 
 import "./Menu.css"
 function Menu() {
@@ -24,6 +25,7 @@ function Menu() {
         {to:"/pagination", name:'Pagination',icon:<CgMoreO />},
         {to:"/colorgenerator", name:'Color Generator',icon:<HiOutlineColorSwatch />},
         {to:"/scrollbarindicator", name:'Scroll Bar Indicator',icon:<CgScrollV />},
+        {to:"/shoppingcard", name:'Shopping App',icon:<CiShoppingBasket />},
     ]
 
     function searchFn(e){
